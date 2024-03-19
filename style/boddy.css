@@ -1,0 +1,467 @@
+/* Banner Area */
+.main-banner-area{
+    background-color: var(--theme-color);
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+/*====================================================
+HOME FOUR STYLE
+======================================================*/
+/*
+Banner Four Area Style
+======================================================*/
+.main-banner-area-four {
+    padding-bottom: 250px;
+    overflow: hidden;
+}
+
+.main-banner-area-four .banner-text {
+    top: 30px;
+}
+
+.main-banner-area-four .banner-text .banner-btn .default-btn.active {
+    padding-left: 52px;
+}
+
+.main-banner-area-four .banner-text .banner-btn .default-btn.active i {
+    position: absolute;
+    font-size: 25px;
+    top: 14px;
+    left: 28px;
+}
+
+.main-banner-area-four .over-shape img {
+    position: absolute;
+    z-index: -1;
+}
+
+.main-banner-area-four .over-shape img:nth-child(1) {
+    top: 300px;
+    left: 40px;
+    -webkit-animation: animationFramesOne 25s infinite linear;
+    animation: animationFramesOne 25s infinite linear;
+}
+
+.main-banner-area-four .over-shape img:nth-child(2) {
+    top: 200px;
+    left: 800px;
+    -webkit-animation: animationFramesOne 40s infinite linear;
+    animation: animationFramesOne 40s infinite linear;
+}
+
+.main-banner-area-four .over-shape img:nth-child(3) {
+    top: 150px;
+    right: 800px;
+    -webkit-animation: animationFramesOne 20s infinite linear;
+    animation: animationFramesOne 20s infinite linear;
+}
+
+.main-banner-area-four .over-shape img:nth-child(4) {
+    bottom: 200px;
+    right: 800px;
+    -webkit-animation: animationFramesOne 30s infinite linear;
+    animation: animationFramesOne 30s infinite linear;
+}
+
+.main-banner-area-four .over-shape img:nth-child(5) {
+    top: 200px;
+    right: 200px;
+    -webkit-animation: animationFramesOne 10s infinite linear;
+    animation: animationFramesOne 10s infinite linear;
+}
+
+Main Banner Area Style======================================================*/ .main-banner-area {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#00095e), to(#000638));
+    background-image: linear-gradient(#00095e, #000638);
+    padding-top: 200px;
+    padding-bottom: 300px;
+    position: relative;
+    z-index: 1;
+}
+
+.main-banner-area::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../images/assets/img/home-one-banner/banner-one-shape/4.png);
+    -webkit-animation: focus-one 1s linear 1s infinite;
+    animation: focus-one 1s linear 1s infinite;
+    z-index: -1;
+}
+
+.main-banner-area::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../images/assets/img/home-one-banner/banner-one-shape/4.png);
+    -webkit-animation: moVebounce 5s linear infinite;
+    animation: moVebounce 5s linear infinite;
+    z-index: -1;
+}
+
+.main-banner-area .banner-text {
+    position: relative;
+    max-width: 540px;
+    margin-left: auto;
+}
+
+.main-banner-area .banner-text h1 {
+    color: #ffffff;
+    font-size: 50px;
+    margin-bottom: 32px;
+}
+
+.main-banner-area .banner-text p {
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.main-banner-area .banner-text .banner-btn .default-btn {
+    margin-right: 15px;
+}
+
+.main-banner-area .banner-main-img {
+    display: none;
+}
+
+.main-banner-area .white-shape {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    -webkit-animation: movebounceShort 5s linear infinite;
+    animation: movebounceShort 5s linear infinite;
+}
+
+.main-banner-area.main-banner-area-one {
+    overflow: hidden;
+    z-index: 1;
+}
+
+.main-banner-area.main-banner-area-one .banner-text {
+    top: 60px;
+}
+
+.main-banner-area.main-banner-area-one .banner-img {
+    position: relative;
+    z-index: 1;
+    top: 0;
+}
+
+.main-banner-area.main-banner-area-one .banner-img img {
+    position: absolute;
+}
+
+.main-banner-area.main-banner-area-one .banner-img img:nth-child(1) {
+    bottom: -440px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.main-banner-area.main-banner-area-one .banner-img img:nth-child(2) {
+    top: -170px;
+    left: 0;
+}
+
+.main-banner-area.main-banner-area-one .banner-img img:nth-child(3) {
+    top: -100px;
+    left: 70px;
+    -webkit-animation: moVebounce 5s linear infinite;
+    animation: moVebounce 5s linear infinite;
+}
+
+.main-banner-area.main-banner-area-one .banner-img img:nth-child(4) {
+    top: -33px;
+    right: 65px;
+}
+
+.main-banner-area.main-banner-area-one .over-shape img {
+    position: absolute;
+    z-index: -1;
+}
+
+.main-banner-area.main-banner-area-one .over-shape img:nth-child(1) {
+    top: 300px;
+    left: 40px;
+    -webkit-animation: animationFramesOne 25s infinite linear;
+    animation: animationFramesOne 25s infinite linear;
+}
+
+.main-banner-area.main-banner-area-one .over-shape img:nth-child(2) {
+    top: 200px;
+    left: 800px;
+    -webkit-animation: animationFramesOne 40s infinite linear;
+    animation: animationFramesOne 40s infinite linear;
+}
+
+.main-banner-area.main-banner-area-one .over-shape img:nth-child(3) {
+    top: 200px;
+    right: 200px;
+    -webkit-animation: animationFramesOne 25s infinite linear;
+    animation: animationFramesOne 25s infinite linear;
+}
+/* end Banner Area */
+
+/*
+Keyframes Area Style
+======================================================*/
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+@-webkit-keyframes movebounceShort {
+    0% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+
+    50% {
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+}
+
+@keyframes movebounceShort {
+    0% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+
+    50% {
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+}
+
+@-webkit-keyframes moVebounce {
+    0% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+
+    50% {
+        -webkit-transform: translateY(50px);
+        transform: translateY(50px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+}
+
+@keyframes moVebounce {
+    0% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+
+    50% {
+        -webkit-transform: translateY(50px);
+        transform: translateY(50px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+}
+
+@-webkit-keyframes animationFramesOne {
+    0% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+
+    80% {
+        -webkit-transform: translate(-300px, 0px) rotate(360deg);
+        transform: translate(-300px, 0px) rotate(360deg);
+    }
+
+    100% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+}
+
+@keyframes animationFramesOne {
+    0% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+
+    80% {
+        -webkit-transform: translate(-300px, 0px) rotate(360deg);
+        transform: translate(-300px, 0px) rotate(360deg);
+    }
+
+    100% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+}
+
+@-webkit-keyframes focus-one {
+    0% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes focus-one {
+    0% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes animationFramesOne {
+    0% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+
+    20% {
+        -webkit-transform: translate(73px, -1px) rotate(36deg);
+        transform: translate(73px, -1px) rotate(36deg);
+    }
+
+    40% {
+        -webkit-transform: translate(141px, 72px) rotate(72deg);
+        transform: translate(141px, 72px) rotate(72deg);
+    }
+
+    60% {
+        -webkit-transform: translate(83px, 122px) rotate(108deg);
+        transform: translate(83px, 122px) rotate(108deg);
+    }
+
+    80% {
+        -webkit-transform: translate(-40px, 72px) rotate(144deg);
+        transform: translate(-40px, 72px) rotate(144deg);
+    }
+
+    100% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+}
+
+@-webkit-keyframes border-transform {
+
+    0%,
+    100% {
+        border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
+    }
+
+    14% {
+        border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%;
+    }
+
+    28% {
+        border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%;
+    }
+
+    42% {
+        border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%;
+    }
+
+    56% {
+        border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%;
+    }
+
+    70% {
+        border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%;
+    }
+
+    84% {
+        border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
+    }
+}
+
+@keyframes border-transform {
+
+    0%,
+    100% {
+        border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
+    }
+
+    14% {
+        border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%;
+    }
+
+    28% {
+        border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%;
+    }
+
+    42% {
+        border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%;
+    }
+
+    56% {
+        border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%;
+    }
+
+    70% {
+        border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%;
+    }
+
+    84% {
+        border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
+    }
+}
